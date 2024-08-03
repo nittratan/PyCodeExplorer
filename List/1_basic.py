@@ -14,6 +14,13 @@ List2 = list( ( 1,2,3,4,5 ) )
 
 """
 
+# list can be created in different ways
+# 1. lst = [1, 2, 3, 4, 5]
+# 2. lst = list((1, 2, 3, 4, 5))
+# 3. lst = [] # empty list
+# 4. lst = [1,] # list with single item
+# 5. lst = [1] # not allowed, it will be considered as int
+
 lst1 = [1, 2, 3, 4, 5]
 lst2 = list((1, 2, 3, 4, 5))
 lst3 = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
