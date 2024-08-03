@@ -21,6 +21,16 @@ List2 = list( ( 1,2,3,4,5 ) )
 # 4. lst = [1,] # list with single item
 # 5. lst = [1] # not allowed, it will be considered as int
 
+# example of list function
+# lst = list('any iterable') # any iterable can be string, tuple, set, dictionary, etc. It will convert the iterable into list
+lst = list('hello')
+print(lst)  # ['h', 'e', 'l', 'l', 'o']
+# lst1 = list(1, 2, 3, 4, 5) # TypeError: list expected at most 1 argument, got 5 
+# list function expects only one argument, so we need to pass the tuple as single argument or use square brackets
+lst1 = list((1, 2, 3, 4, 5)) # correct way to create list from tuple
+print(lst1)  # [1, 2, 3, 4, 5]
+
+
 lst1 = [1, 2, 3, 4, 5]
 lst2 = list((1, 2, 3, 4, 5))
 lst3 = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
