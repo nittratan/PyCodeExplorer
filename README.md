@@ -17,7 +17,7 @@ Welcome to PyCodeExplorer! This repository is a comprehensive collection of my P
 1. [Chapter 1: Basic of Python](#chapter-1-introduction-to-python)
 2. [Chapter 2: Variables and Data Types](#chapter-2-variables-and-data-types)
 
-### Chapter 1: Introduction to Python
+### Chapter 1: Basics of Python
 [Link to Chapter 1 on GitHub](https://github.com/nittratan/PyCodeExplorer/tree/main/Basics)
 
 ### Contents
