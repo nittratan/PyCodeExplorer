@@ -8,7 +8,7 @@ A loop can be used to append values in a list of particular range.
 
 '''
 
-# List Comprehensions
+# List Comprehensions : comprehensions are short cut for creating a sequence object or list object.
 
 lst = []
 for x in range(10):
