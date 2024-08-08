@@ -32,7 +32,7 @@ print(dic1)
 
 # traverse the dictionary
 # we can traverse the dictionary using for loop
-for key in dic1:
+for key in dic1: # default it will print only keys
     print(key) # it will print all the keys of the dictionary
 
 for key in dic1:
