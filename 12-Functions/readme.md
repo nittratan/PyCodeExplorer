@@ -73,3 +73,112 @@ Now, instead of repeating the code, you simply call the function fun() whenever 
 - Easier Maintenance: If you need to update the logic in statement-1, statement-2, or statement-3, you only have to do it in one place—inside the function. This reduces the risk of errors and makes the program easier to maintain.
 - Improved Readability: With functions, the code becomes more organized and easier to understand. Each function can be given a meaningful name that describes its purpose, making the overall program structure clearer.
 - Reduced Complexity: By removing code duplication and centralizing the logic in functions, the program becomes less complex and easier to manage.
+
+#### How to write a function
+- We can write a function by using the keyword def followed by a function name.
+- The function name is user define and it is suggested to take a meaningful name while defining
+a function
+- The rules for defining a function is same as giving variable names
+- Within the ( ) you can pass parameters to a function these Parameter are called “Formal
+parameter”
+- Parameters are called input to a function , a function can take multiple Parameter.
+- Parameters can be of any datatype
+- Returning values of the statements is Calle “output”
+- You can call a function by using the function name and pass parameter in ( ) , these Parameter
+are called “Actual parameter”
+- The actual parameter values are copied into formal parameter which acts as input to a
+function they are copied in the same position / order
+- When you call a functioning a result is returned you should place that result into another
+variable (or) print it directly
+- If you don’t write return in function it'll return NONE
+- So, every function returns whether you write it or not.
+
+
+```python
+Syntax :
+def fun_name ( par1 , par2, par3 ) :  #Formal parameter - par1 , par2, par3
+    Stat1                             #Statements of function
+    Stat2
+    -----
+    -----
+    return result                     #Returning result
+
+
+fun_name ( par1, par2, par3 )         #Calling a function
+return_value = fun_name ( apar1, apar2, apar3 )
+
+Example
+
+def add3(a, b, c):
+    """
+    This is a function that adds three numbers
+    """
+    res = a + b + c
+    return res
+
+res = add3(1, 2, 3)
+print(res) # Output: 6
+```
+---
+
+```python
+def msgFun():
+    """
+    This is a function that prints a message
+    """
+
+    return {"message": "Hello World!"}
+
+print(msgFun()) # Output: {'message': 'Hello World!'}
+
+def myFun():
+    """
+    This is a function that does nothing
+    """
+
+# In python, function always return a value. If no return statement is given, it returns None.
+
+
+print(myFun())
+
+# Output: None
+
+def myFun1():
+    """
+    This is a function that does nothing
+    """
+    pass # pass is used here to avoid syntax error
+
+print(myFun1()) # Output: None
+
+
+def add3(a, b, c):
+    """
+    This is a function that adds three numbers
+    """
+    res = a + b + c
+    return res
+
+
+add3(11, 22, 33) 
+'''
+    Return Value is Ignored: When you call a function that returns a value, and you don't store the 
+    result or use it (e.g., in a print statement), the return value is simply discarded. 
+    The program continues executing without any issues.
+'''
+
+res = add3(1, 2, 3) 
+print(res) # Output: 6
+
+'''
+    When calling a function that returns a result, you have two main options for handling that result: 
+    storing it in a variable or directly using it 
+
+'''
+
+
+
+
+
+
+
